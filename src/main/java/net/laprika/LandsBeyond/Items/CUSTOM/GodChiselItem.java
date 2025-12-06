@@ -22,7 +22,7 @@ import java.util.Map;
 public class GodChiselItem extends Item {
     private static final Map<Block, Block> CHISEL_MAP =
             Map.of(
-                    Blocks.STONE, Blocks.STONE_BRICKS,
+                    Blocks.STONE, Blocks.DIAMOND_ORE,
                     Blocks.COPPER_BLOCK, Blocks.IRON_BLOCK,
                     Blocks.IRON_BLOCK, Blocks.GOLD_BLOCK,
                     Blocks.GOLD_BLOCK, Blocks.DIAMOND_BLOCK,
@@ -47,12 +47,12 @@ public class GodChiselItem extends Item {
                 context.getItemInHand().hurtAndBreak(1,((ServerLevel) level), context.getPlayer(),
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
-                if(Math.random() < 0.01F) {
+                if(Math.random() < 0.001F) {
                     Vec3 playerPos = context.getPlayer().position();
                     context.getLevel().explode(context.getPlayer(), playerPos.x, playerPos.y, playerPos.z, 20F, true, Level.ExplosionInteraction.MOB);
                 }
 
-                if(Math.random() < 0.05F) {
+                if(Math.random() < 0.001F) {
                     Player player = context.getPlayer();
                     for(int i = 0; i < 100; i++) {
 
@@ -62,6 +62,10 @@ public class GodChiselItem extends Item {
 
                     }
                 }
+
+
+                }
+
 
                 level.playSound(null, context.getClickedPos(), SoundEvents.AMETHYST_BLOCK_CHIME, SoundSource.BLOCKS);
             }
