@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "landsbeyond:zitronium_block",
+    "landsbeyond:zitronium_ore",
+
+    "landsbeyond:dawngold_block",
+    "landsbeyond:dawngold_ore",
+    "landsbeyond:dawngold_deepslate_ore"
+  ]
+}

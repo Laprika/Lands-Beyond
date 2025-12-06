@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 5.0,
+  "group": "dawngold",
+  "ingredient": {
+    "item": "landsbeyond:raw_dawngold"
+  },
+  "result": {
+    "id": "landsbeyond:dawngold"
+  }
+}

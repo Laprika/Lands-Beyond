@@ -1,13 +1,18 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
+  "item.landsbeyond.raw_dawngold": "Raw Dawngold",
+  "item.landsbeyond.dawngold": "Dawngold",
+  "item.landsbeyond.landsbeyond_icon": "LandsBeyond Icon",
+  "item.landsbeyond.landsbeyond_icon2": "LandsBeyond Icon2",
+  "item.landsbeyond.zitronium": "Zitronium Gem",
+  "item.landsbeyond.god_chisel_item": "God Chisel",
 
-  "examplemod.configuration.title": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
-  "examplemod.configuration.items": "Item List",
-  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
-  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "block.landsbeyond.zitronium_block": "Block of Zitronium",
+  "block.landsbeyond.zitronium_ore": "Zitronium Ore",
+  "block.landsbeyond.dawngold_block": "Dawngold Block",
+  "block.landsbeyond.dawngold_ore": "Dawngold Ore",
+  "block.landsbeyond.dawngold_deepslate_ore": "Deepslate Dawngold Ore",
+
+  "creativetab.landsbeyond.items": "LandsBeyond Items",
+  "creativetab.landsbeyond.blocks": "LandsBeyond Blocks"
+
 }

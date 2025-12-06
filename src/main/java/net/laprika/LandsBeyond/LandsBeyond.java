@@ -1,8 +1,14 @@
 package net.laprika.LandsBeyond;
 
+import net.laprika.LandsBeyond.Items.ModCreativeModeTabs;
+import net.laprika.LandsBeyond.Items.ModItems;
+import net.laprika.LandsBeyond.block.ModBlocks;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.common.Tags;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -20,6 +26,8 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(LandsBeyond.MOD_ID)
 public class LandsBeyond {
+
+
     public static final String MOD_ID = "landsbeyond";
     public static final Logger LOGGER = LogUtils.getLogger();
 
@@ -35,6 +43,11 @@ public class LandsBeyond {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -48,6 +61,20 @@ public class LandsBeyond {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RAW_DAWNGOLD);
+            event.accept(ModItems.DAWNGOLD);
+            event.accept(ModItems.ZITRONIUM);
+            event.accept(ModItems.GOD_CHISEL_ITEM);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ZITRONIUM_BLOCK);
+            event.accept(ModBlocks.ZITRONIUM_ORE);
+            event.accept(ModBlocks.DAWNGOLD_BLOCK);
+            event.accept(ModBlocks.DAWNGOLD_ORE);
+            event.accept(ModBlocks.DAWNGOLD_DEEPSLATE_ORE);
+        }
 
     }
 
@@ -55,13 +82,6 @@ public class LandsBeyond {
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
-}
 
-@EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-public static class  ClientModEvents  {
-    @SubscribeEvent
-    public static void onClientSetup(FMLClientSetupEvent event) {
-
-     }
-  }
-}
+    }
+    }
