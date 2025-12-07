@@ -6,6 +6,8 @@
 
     "landsbeyond:dawngold_block",
     "landsbeyond:dawngold_ore",
-    "landsbeyond:dawngold_deepslate_ore"
+    "landsbeyond:dawngold_deepslate_ore",
+    "landsbeyond:solarite_ore",
+    "landsbeyond:solarite_block"
   ]
 }

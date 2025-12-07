@@ -4,7 +4,13 @@
   "item.landsbeyond.landsbeyond_icon": "LandsBeyond Icon",
   "item.landsbeyond.landsbeyond_icon2": "LandsBeyond Icon2",
   "item.landsbeyond.zitronium": "Zitronium Gem",
+
   "item.landsbeyond.god_chisel_item": "God Chisel",
+  "tooltip.landsbeyond:god_chisel.shift_down": "A Divine Tool to amplify Riches.",
+  "tooltip.landsbeyond:god_chisel": "Press §eShift§r for more Information",
+
+  "item.landsbeyond.dawngold_apple": "Dawngold Apple",
+  "item.landsbeyond.solarite": "Solarite",
 
   "block.landsbeyond.zitronium_block": "Block of Zitronium",
   "block.landsbeyond.zitronium_ore": "Zitronium Ore",
@@ -12,7 +18,14 @@
   "block.landsbeyond.dawngold_ore": "Dawngold Ore",
   "block.landsbeyond.dawngold_deepslate_ore": "Deepslate Dawngold Ore",
 
+  "block.landsbeyond.divine_block": "Divine Block",
+  "tooltip.landsbeyond:divine_block.tooltip": "A Block filled with Divine Power.",
+
+  "block.landsbeyond.solarite_ore": "Solarite Ore",
+  "block.landsbeyond.solarite_block": "Solarite Block",
+
   "creativetab.landsbeyond.items": "LandsBeyond Items",
   "creativetab.landsbeyond.blocks": "LandsBeyond Blocks"
+
 
 }

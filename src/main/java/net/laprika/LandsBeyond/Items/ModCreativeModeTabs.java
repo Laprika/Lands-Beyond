@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DAWNGOLD);
                         output.accept(ModItems.ZITRONIUM);
                         output.accept(ModItems.GOD_CHISEL_ITEM);
+                        output.accept(ModItems.DAWNGOLD_APPLE);
+                        output.accept(ModItems.SOLARITE);
 
                     }).build());
 
@@ -37,6 +39,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DAWNGOLD_BLOCK);
                         output.accept(ModBlocks.DAWNGOLD_ORE);
                         output.accept(ModBlocks.DAWNGOLD_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.DIVINE_BLOCK);
+                        output.accept(ModBlocks.SOLARITE_ORE);
+                        output.accept(ModBlocks.SOLARITE_BLOCK);
                     }).build());
 
 

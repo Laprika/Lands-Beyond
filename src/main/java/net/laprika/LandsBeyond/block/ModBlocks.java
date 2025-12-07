@@ -2,6 +2,7 @@ package net.laprika.LandsBeyond.block;
 
 import net.laprika.LandsBeyond.Items.ModItems;
 import net.laprika.LandsBeyond.LandsBeyond;
+import net.laprika.LandsBeyond.block.CUSTOM.DivineBlock;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -50,6 +51,21 @@ public class ModBlocks {
     public static final DeferredBlock<Block> DAWNGOLD_DEEPSLATE_ORE = registerBlock("dawngold_deepslate_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
+                    .requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> SOLARITE_ORE = registerBlock("solarite_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> SOLARITE_BLOCK = registerBlock("solarite_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()));
+
+    // CUSTOM
+    public static final DeferredBlock<Block> DIVINE_BLOCK = registerBlock("divine_block",
+            () -> new DivineBlock(BlockBehaviour.Properties.of()
+                    .strength(5f)
+                    .sound(SoundType.AMETHYST_CLUSTER)
                     .requiresCorrectToolForDrops()));
 
 

@@ -3,9 +3,7 @@ package net.laprika.LandsBeyond.Items;
 import net.laprika.LandsBeyond.Items.CUSTOM.GodChiselItem;
 import net.laprika.LandsBeyond.LandsBeyond;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -26,8 +24,25 @@ public class ModItems {
 
     public static  final DeferredItem<Item> ZITRONIUM = ITEMS.register("zitronium",
             () -> new Item(new Item.Properties()));
+    public static  final DeferredItem<Item> SOLARITE = ITEMS.register("solarite",
+            () -> new Item(new Item.Properties()));
+
+
+
+
+
+    //CUSTOM
     public static  final DeferredItem<Item> GOD_CHISEL_ITEM = ITEMS.register("god_chisel_item",
             () -> new GodChiselItem(new Item.Properties().durability(64)));
+
+
+
+
+
+
+    //FOOD
+    public static  final DeferredItem<Item> DAWNGOLD_APPLE = ITEMS.register("dawngold_apple",
+            () -> new Item (new Item.Properties().food(LandsBeyondFood.DAWNGOLD_APPLE)));
 
 
 
