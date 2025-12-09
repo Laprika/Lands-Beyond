@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "landsbeyond:block/dawngold_block"
+  }
+}

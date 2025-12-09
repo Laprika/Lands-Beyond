@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "landsbeyond:block/dawngold_slab"
+    },
+    "type=double": {
+      "model": "landsbeyond:block/dawngold_block"
+    },
+    "type=top": {
+      "model": "landsbeyond:block/dawngold_slab_top"
+    }
+  }
+}

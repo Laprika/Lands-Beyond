@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "landsbeyond:block/dawngold_block",
+    "side": "landsbeyond:block/dawngold_block",
+    "top": "landsbeyond:block/dawngold_block"
+  }
+}

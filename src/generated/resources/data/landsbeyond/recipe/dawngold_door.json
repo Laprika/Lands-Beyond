@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "dawngold",
+  "key": {
+    "#": {
+      "item": "landsbeyond:dawngold"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "landsbeyond:dawngold_door"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 3200,
+  "experience": 5.0,
+  "group": "Golden_Lands_Ores",
+  "ingredient": {
+    "item": "landsbeyond:golden_log"
+  },
+  "result": {
+    "count": 1,
+    "id": "landsbeyond:dawngold"
+  }
+}

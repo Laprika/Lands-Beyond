@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "dawngold",
+  "ingredients": [
+    {
+      "item": "landsbeyond:dawngold"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "landsbeyond:dawngold_button"
+  }
+}

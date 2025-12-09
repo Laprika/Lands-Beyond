@@ -1,0 +1,9 @@
+// 1.21.1	2025-12-09T15:25:50.079137	Tags for minecraft:block mod id landsbeyond
+33d33ed738899778bf28b2f18d8d51089ba6f6b5 data/minecraft/tags/block/fences.json
+ec18891fd767afd782a82e79ede219c0407b46d2 data/minecraft/tags/block/fence_gates.json
+f9a979a8c040a2844731de4bcee7c6a53753e95a data/minecraft/tags/block/mineable/axe.json
+f4ec86c27fb8ba32adb0d828578633822ed6e6f7 data/minecraft/tags/block/mineable/pickaxe.json
+eb20847dfbc26d92d60e5e75ab6bc4e4d88fdac6 data/minecraft/tags/block/needs_diamond_tool.json
+f9a979a8c040a2844731de4bcee7c6a53753e95a data/minecraft/tags/block/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/needs_stone_tool.json
+11b71c6a2bdc24102e1e4dba3dced484f00b52de data/minecraft/tags/block/walls.json

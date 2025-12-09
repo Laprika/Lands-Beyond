@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1600,
+  "experience": 5.0,
+  "group": "Golden_Lands_Ores",
+  "ingredient": {
+    "item": "landsbeyond:raw_dawngold"
+  },
+  "result": {
+    "count": 1,
+    "id": "landsbeyond:dawngold"
+  }
+}

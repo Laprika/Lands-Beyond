@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dawngold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "landsbeyond:dawngold"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "landsbeyond:dawngold_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dawngold"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "landsbeyond:dawngold_stairs"
+    ]
+  }
+}

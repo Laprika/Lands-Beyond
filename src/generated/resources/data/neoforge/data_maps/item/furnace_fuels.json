@@ -1,0 +1,10 @@
+{
+  "values": {
+    "landsbeyond:golden_log": {
+      "burn_time": 400
+    },
+    "landsbeyond:solarite": {
+      "burn_time": 1600
+    }
+  }
+}
