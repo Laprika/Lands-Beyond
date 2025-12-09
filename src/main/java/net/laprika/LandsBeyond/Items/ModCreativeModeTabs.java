@@ -34,14 +34,27 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(LandsBeyond.MOD_ID,"landsbeyond_items_tab"))
                     .title(Component.translatable("creativetab.landsbeyond.blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.ZITRONIUM_BLOCK);
-                        output.accept(ModBlocks.ZITRONIUM_ORE);
+                        //Golden Lands
                         output.accept(ModBlocks.DAWNGOLD_BLOCK);
+                        output.accept(ModBlocks.DAWNGOLD_STAIRS);
+                        output.accept(ModBlocks.DAWNGOLD_SLAB);
+                        output.accept(ModBlocks.DAWNGOLD_Pressure_Plate);
+                        output.accept(ModBlocks.DAWNGOLD_BUTTON);
+                        output.accept(ModBlocks.DAWNGOLD_FENCE);
+                        output.accept(ModBlocks.DAWNGOLD_FENCE_GATE);
+                        output.accept(ModBlocks.DAWNGOLD_WALL);
+                        output.accept(ModBlocks.DAWNGOLD_DOOR);
+                        output.accept(ModBlocks.DAWNGOLD_TRAPDOOR);
                         output.accept(ModBlocks.DAWNGOLD_ORE);
                         output.accept(ModBlocks.DAWNGOLD_DEEPSLATE_ORE);
-                        output.accept(ModBlocks.DIVINE_BLOCK);
                         output.accept(ModBlocks.SOLARITE_ORE);
                         output.accept(ModBlocks.SOLARITE_BLOCK);
+                        output.accept(ModBlocks.GOLDEN_LOG);
+
+
+                        output.accept(ModBlocks.ZITRONIUM_BLOCK);
+                        output.accept(ModBlocks.ZITRONIUM_ORE);
+                        output.accept(ModBlocks.DIVINE_BLOCK);
                     }).build());
 
 

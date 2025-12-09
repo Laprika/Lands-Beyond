@@ -80,7 +80,7 @@ public class LandsBeyond {
          //   event.accept(ModBlocks.SOLARITE_BLOCK);
       //  }
 
-    }
+   // }
 
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
